@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal - youtube.com/@codingnepal -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reading with Isa</title>
+    <!-- Linking Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- Linking Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">🎀 Reading with Isa 🎀</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#books" class="nav-link">Books</a>
+          </li>
+          <li class="nav-item">
+            <a href="#reviews" class="nav-link">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Cherry book club</h2>
+            <h3 class="subtitle">Blessing days with books!</h3>
+            <p class="description">
+              Welcome to Cherry book club. With us, you can find the books that
+              we are currently reading and have read. Enjoy with us as we dive
+              deep into the stories that our favorites authors have ready for
+              us.
+            </p>
+            <div class="buttons">
+              <a href="#" class="button start-now">Join Now</a>
+              <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="src/cherry-book.jpeg" alt="Cherry" class="hero-image" />
+          </div>
+        </div>
+      </section>
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="src/about-me.png" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Me</h2>
+            <p class="text">
+              As a 2025 niche it girly dreaming to get my life together I still
+              cant find something to make me happy. Noticing my love and
+              interest for books is the reason why I want to create this page
+              and connect with other girlies and read our books without a meet
+              up. Creating a safe space to meet, think and share our thoughts
+              without having to leave our day to day schedule.
+            </p>
+
+            <div class="social-link-list">
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Books section -->
+      <section class="books-section" id="books">
+        <h2 class="section-title">Books read</h2>
+        <div class="section-content">
+          <ul class="books-list">
+            <li class="books-item">
+              <img
+                src="src/archers-voice.png"
+                alt="Archer's Voice"
+                class="books-image"
+              />
+              <div class="books-details">
+                <h3 class="books-name">Archer's Voice</h3>
+                <p class="books-author">Mia Sheridan</p>
+                <p class="books-text">⭐️⭐️⭐️⭐️</p>
+              </div>
+            </li>
+            <li class="books-item">
+              <img
+                src="src/the-housemaid-watching.jpg"
+                alt="The Housemaid is Watching"
+                class="books-image"
+              />
+              <div class="books-details">
+                <h3 class="books-name">The Housemaid is Watching</h3>
+                <p class="books-author">Freida McFadden</p>
+                <p class="books-text">⭐️⭐️⭐️⭐️</p>
+              </div>
+            </li>
+            <li class="books-item">
+              <img
+                src="src/before he kills.jpg"
+                alt="Before He Kills"
+                class="books-image"
+              />
+              <div class="books-details">
+                <h3 class="books-name">Before He Kills</h3>
+                <p class="books-author">Blake Pierce</p>
+                <p class="books-text">⭐️⭐️⭐️⭐️</p>
+              </div>
+            </li>
+            <li class="books-item">
+              <img
+                src="src/love redesigned.jpg"
+                alt="Love Redesigned"
+                class="books-image"
+              />
+              <div class="books-details">
+                <h3 class="books-name">Love Redesigned</h3>
+                <p class="books-author">Lauren Asher</p>
+                <p class="books-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+            </li>
+          </ul>
+          <br />
+          <a href="src/booksread.html" class="books-show-link"
+            >Show more...🏹</a
+          >
+        </div>
+      </section>
+
+      <!-- Reviews section -->
+      <section class="reviews-section" id="reviews">
+        <h2 class="section-title">Reviews</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="reviews-list swiper-wrapper">
+                <li class="reviews swiper-slide">
+                  <img
+                    src="src/Anime Sunset.jpeg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">ReadJess</h3>
+                  <i class="feedback"
+                    >"I've been wanting to join an only book club for so long,
+                    with my long daily schedule its hard to attend to all meet
+                    and read.🌷"</i
+                  >
+                </li>
+                <li class="reviews swiper-slide">
+                  <img
+                    src="src/anime-faith.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Lola Mitchelle</h3>
+                  <i class="feedback"
+                    >"Great page to start my reading and help me motivate myself
+                    with others."</i
+                  >
+                </li>
+                <li class="reviews swiper-slide">
+                  <img
+                    src="src/anime streetwear vibes.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Valentina Mona</h3>
+                  <i class="feedback"
+                    >"Love the asthetic and the pink online book club and happy
+                    that is free.🥹🧸"</i
+                  >
+                </li>
+                <li class="reviews swiper-slide">
+                  <img
+                    src="src/aesthetic beach girl.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Isabel Pavia</h3>
+                  <i class="feedback"
+                    >"I love a cute aesthetic free book club. I dont feel alone
+                    reading anymore. I recommend opening a group chat to message
+                    with others.🎀"</i
+                  >
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="src/7-husband-evelyn.jpeg"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/ends-with-us.jpeg"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/girl-pieces.jpeg"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/a good girl guide to murder.jpeg"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/ugly-love.jpeg"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/It Starts with Us.jpeg"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>San Juan, Puerto Rico</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <a href="mailto:info@readingwithisa.com" class="email"
+                >info@readingwithisa.com</a
+              >
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(939)445-3333</p>
+            </li>
+
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.ReadingwithIsa.com</p>
+            </li>
+          </ul>
+          <form action="#" class="contact-form">
+            <input
+              type="text"
+              placeholder="Your name"
+              class="form-input"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your email"
+              class="form-input"
+              required
+            />
+            <textarea
+              placeholder="Why you want to join?"
+              class="form-input"
+              required
+            ></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2025 Reading with Isa</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+          <p class="policy-text">
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+          </p>
+        </div>
+      </footer>
+    </main>
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Linking custom script -->
+    <script src="src/script.js"></script>
+  </body>
+</html>
